@@ -78,6 +78,11 @@ body {
 	max-height: 558px;
 }
 
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+
 #about-me {
 	flex: 2
 }
@@ -98,9 +103,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -110,7 +112,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: black;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
