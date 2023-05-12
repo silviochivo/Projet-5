@@ -1,4 +1,4 @@
-body {
+body, header, nav {
 	max-width: 1920px;
 	margin: auto;
 }
