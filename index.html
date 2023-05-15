@@ -5,6 +5,7 @@
 	<title>Site de photographie de Nina Carducci</title>
 	<meta name="description" content="Site web de la Photographe profesionelle Nina Carducci, propose ces services de shooting photo, retouches et albums photos.">
 	<meta name="theme-color" content="#FFFFFF" >
+	<meta name="robots" content="index">
 	<!-- Open Graph data -->
 	<meta property="og:title" content="Site de photographie de Nina Carducci" />
 	<meta property="og:type" content="website" />
@@ -22,9 +23,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script defer src="./assets/maugallery.js"></script>
+	<script defer src="./assets/scripts.js"></script>
 </head>
 
 <header>
@@ -78,7 +79,7 @@
 <div id="about">
 	<div class="picture left">
 		<img src="./assets/images/photo-profile-nina-carducci.webp" alt="photographie de profil Nina photo-profile-nina-carducci" 
-		title="Photographe Nina Carducci" width="200" height="200">
+		title="Photographe Nina Carducci" width="200" height="200" itemprop="image">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -200,8 +201,8 @@
 		  <meta itemprop="postalCode" content="33200">
 		</div>
 		<meta itemprop="telephone" content="(+33) 05 56 67 78 89">
-		<meta itemprop="url" href="https://nina-carducci.github.io/" content="https://nina-carducci.github.io/">
 		<meta itemprop="openingHours" content="Mo-Fr 10:00-19:00">
+		<meta itemprop="url" href="https://nina-carducci.github.io/" content="https://nina-carducci.github.io/">
 	</div>
 </footer>
 
